@@ -1,8 +1,12 @@
-# Orbit Hop
+# Pocket Arcade
 
-A small arcade game: hop a moon between orbits around a star, grab stardust, dodge comets.
+Four small browser games under one hub page. Open `index.html` in a browser; there's no build step.
 
-Open `index.html` in a browser to play — no build step.
+| Game | File | Controls |
+|---|---|---|
+| Orbit Hop | `games/orbit-hop.html` | `↑`/`↓` hop orbits, `Space` reverse; touch: tap above/below the star, tap the star to reverse |
+| Brick Breeze | `games/brick-breeze.html` | Mouse/touch or `←`/`→` to move, click/tap/`Space` to launch |
+| Snake Garden | `games/snake-garden.html` | Arrows/WASD, or swipe |
+| Pair Up | `games/pair-up.html` | Click/tap cards; Easy, Medium and Hard boards |
 
-- `↑`/`W` hop out, `↓`/`S` hop in, `Space` reverse, `P` pause
-- Touch: tap above the star to hop out, below to hop in, tap the star to reverse
+`P` pauses the action games. Best scores are kept in the browser's localStorage and shown on the hub.
